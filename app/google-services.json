@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "975831630842",
+    "project_id": "sustainability-b947c",
+    "storage_bucket": "sustainability-b947c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975831630842:android:cb076f63541a62e0b6da43",
+        "android_client_info": {
+          "package_name": "com.example.first_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975831630842-ebgq4umnisgft8cv3orsb8qcqfbfcvma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.first_app",
+            "certificate_hash": "eca863e386fd9db4c8a4424f0a5c5ee78bc6097a"
+          }
+        },
+        {
+          "client_id": "975831630842-ejaiscmh96r3mjfdc21nmk6etpnfk125.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcpCymD0155Wc7wsIp8GnAh53U3r8NvZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975831630842-ejaiscmh96r3mjfdc21nmk6etpnfk125.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975831630842:android:313d189a78873e79b6da43",
+        "android_client_info": {
+          "package_name": "com.example.helthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975831630842-ejaiscmh96r3mjfdc21nmk6etpnfk125.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcpCymD0155Wc7wsIp8GnAh53U3r8NvZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975831630842-ejaiscmh96r3mjfdc21nmk6etpnfk125.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

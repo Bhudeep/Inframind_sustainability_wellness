@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobilebgi"
+    tools:context=".Information">
+
+    <TextView
+        android:id="@+id/UserName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Name"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="Bhuvanesh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <Button
+        android:id="@+id/bpbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_bg"
+        android:text="Blood Pressure"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="@+id/UserName"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/UserName"
+        app:layout_constraintTop_toBottomOf="@+id/UserName" />
+
+    <Button
+        android:id="@+id/btbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_bg"
+        android:text="Body Temperature"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="@+id/UserName"
+        app:layout_constraintStart_toStartOf="@+id/UserName"
+        app:layout_constraintTop_toBottomOf="@+id/bpbtn" />
+
+    <Button
+        android:id="@+id/glbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_bg"
+        android:text="glucose level"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="@+id/UserName"
+        app:layout_constraintStart_toStartOf="@+id/UserName"
+        app:layout_constraintTop_toBottomOf="@+id/btbtn" />
+
+    <Button
+        android:id="@+id/prbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_bg"
+        android:text="pulse rate"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="@+id/glbtn"
+        app:layout_constraintStart_toStartOf="@+id/glbtn"
+        app:layout_constraintTop_toBottomOf="@+id/glbtn" />
+
+    <Button
+        android:id="@+id/resbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_bg"
+        android:text="respiration"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="@+id/prbtn"
+        app:layout_constraintStart_toStartOf="@+id/prbtn"
+        app:layout_constraintTop_toBottomOf="@+id/prbtn" />
+
+    <Button
+        android:id="@+id/osbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_bg"
+        android:text="oxygen saturation"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="@+id/resbtn"
+        app:layout_constraintStart_toStartOf="@+id/resbtn"
+        app:layout_constraintTop_toBottomOf="@+id/resbtn" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/btbtn"
+        app:layout_constraintEnd_toEndOf="@+id/bpbtn"
+        app:layout_constraintStart_toStartOf="@+id/bpbtn"
+        app:layout_constraintTop_toTopOf="@+id/bpbtn"
+        app:layout_constraintVertical_bias="0.90999997" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/glbtn"
+        app:layout_constraintEnd_toEndOf="@+id/btbtn"
+        app:layout_constraintStart_toStartOf="@+id/btbtn"
+        app:layout_constraintTop_toTopOf="@+id/btbtn"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/prbtn"
+        app:layout_constraintEnd_toEndOf="@+id/glbtn"
+        app:layout_constraintStart_toStartOf="@+id/glbtn"
+        app:layout_constraintTop_toTopOf="@+id/glbtn"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/resbtn"
+        app:layout_constraintEnd_toEndOf="@+id/prbtn"
+        app:layout_constraintStart_toStartOf="@+id/prbtn"
+        app:layout_constraintTop_toTopOf="@+id/prbtn"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/osbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/resbtn"
+        app:layout_constraintTop_toTopOf="@+id/resbtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/osbtn"
+        app:layout_constraintStart_toStartOf="@+id/osbtn"
+        app:layout_constraintTop_toBottomOf="@+id/osbtn"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/hsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="Reset"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/osbtn"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="@+id/osbtn"
+        app:layout_constraintTop_toBottomOf="@+id/osbtn"
+        app:layout_constraintVertical_bias="0.13" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
